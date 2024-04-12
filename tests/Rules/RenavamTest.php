@@ -1,9 +1,9 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Tests\Rules;
+namespace davidsonts\ValidatorDocs\Tests\Rules;
 
-use geekcom\ValidatorDocs\Rules\Renavam;
-use geekcom\ValidatorDocs\Tests\ValidatorTestCase;
+use davidsonts\ValidatorDocs\Rules\Renavam;
+use davidsonts\ValidatorDocs\Tests\ValidatorTestCase;
 
 final class RenavamTest extends ValidatorTestCase
 {

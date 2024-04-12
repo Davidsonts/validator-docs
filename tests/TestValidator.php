@@ -1,6 +1,6 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Tests;
+namespace davidsonts\ValidatorDocs\Tests;
 
 use Illuminate\Support\Facades\Validator;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace geekcom\ValidatorDocs\Rules;
+namespace davidsonts\ValidatorDocs\Rules;
 
 final class Passaporte extends Sanitization
 {

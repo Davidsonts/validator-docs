@@ -1,8 +1,8 @@
 <?php
 
-namespace geekcom\ValidatorDocs;
+namespace davidsonts\ValidatorDocs;
 
-use geekcom\ValidatorDocs\Rules\{Certidao,
+use davidsonts\ValidatorDocs\Rules\{Certidao,
     Cnh,
     Cnpj,
     Cns,
@@ -57,6 +57,18 @@ class Validator extends BaseValidator
     {
         $cpf = new Cpf();
         $cnpj = new Cnpj();
+
+        return ($cpf->validateCpf($attribute, $value) || $cnpj->validateCnpj($attribute, $value));
+    }
+
+    protected function validateCpfCnpjPassport($attribute, $value): bool
+    {
+        $cpf = new Cpf();
+        $cnpj = new Cnpj();
+        
+        if(strlen($value=10)) {
+            return true;
+        }
 
         return ($cpf->validateCpf($attribute, $value) || $cnpj->validateCnpj($attribute, $value));
     }

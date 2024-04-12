@@ -1,13 +1,13 @@
 <?php
 
-namespace geekcom\ValidatorDocs;
+namespace davidsonts\ValidatorDocs;
 
-use geekcom\ValidatorDocs\Contracts\ValidatorFormats as Contract;
+use davidsonts\ValidatorDocs\Contracts\ValidatorFormats as Contract;
 use Exception;
 
 class ValidatorFormats
 {
-    private const STRATEGY_NAMESPACE = 'geekcom\ValidatorDocs\Formats\%s';
+    private const STRATEGY_NAMESPACE = 'davidsonts\ValidatorDocs\Formats\%s';
 
     public function execute(string $value, string $document): bool
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Tests;
+namespace davidsonts\ValidatorDocs\Tests;
 
-use geekcom\ValidatorDocs\ValidatorProvider;
+use davidsonts\ValidatorDocs\ValidatorProvider;
 use Orchestra\Testbench\TestCase;
 
 abstract class ValidatorTestCase extends TestCase

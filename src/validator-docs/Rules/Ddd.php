@@ -1,6 +1,6 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Rules;
+namespace davidsonts\ValidatorDocs\Rules;
 
 use function preg_match;
 

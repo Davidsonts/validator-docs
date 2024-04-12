@@ -1,11 +1,11 @@
 {
-  "name": "geekcom/validator-docs",
+  "name": "davidsonts/validator-docs",
   "description": "Biblioteca PHP para validação de documentos do Brasil usando Laravel",
   "license": "MIT",
   "authors": [
     {
-      "name": "Daniel Rodrigues Lima",
-      "email": "geekcom@php.net"
+      "name": "David",
+      "email": "davidsonts@outlook.com"
     }
   ],
   "require": {
@@ -21,18 +21,18 @@
   },
   "autoload": {
     "psr-4": {
-      "geekcom\\ValidatorDocs\\": "src/validator-docs"
+      "davidsonts\\ValidatorDocs\\": "src/validator-docs"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "geekcom\\ValidatorDocs\\Tests\\": "tests"
+      "davidsonts\\ValidatorDocs\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "geekcom\\ValidatorDocs\\ValidatorProvider"
+        "davidsonts\\ValidatorDocs\\ValidatorProvider"
       ]
     }
   },

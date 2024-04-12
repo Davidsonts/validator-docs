@@ -1,8 +1,8 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Formats;
+namespace davidsonts\ValidatorDocs\Formats;
 
-use geekcom\ValidatorDocs\Contracts\ValidatorFormats;
+use davidsonts\ValidatorDocs\Contracts\ValidatorFormats;
 
 class CpfCnpj implements ValidatorFormats
 {

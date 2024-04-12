@@ -1,8 +1,8 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Tests;
+namespace davidsonts\ValidatorDocs\Tests;
 
-use geekcom\ValidatorDocs\ValidatorFormats;
+use davidsonts\ValidatorDocs\ValidatorFormats;
 use Illuminate\Support\Facades\Validator;
 use Exception;
 

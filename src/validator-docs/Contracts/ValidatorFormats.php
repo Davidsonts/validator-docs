@@ -1,6 +1,6 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Contracts;
+namespace davidsonts\ValidatorDocs\Contracts;
 
 interface ValidatorFormats
 {

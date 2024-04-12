@@ -1,16 +1,16 @@
 # Validator Docs - Brasil
 _Biblioteca PHP para validação de documentos do Brasil usando **Laravel**_
 
-![Build Status](https://github.com/geekcom/validator-docs/actions/workflows/proposing-changes.yml/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/geekcom/validator-docs/badge.svg)](https://coveralls.io/github/geekcom/validator-docs)
+![Build Status](https://github.com/davidsonts/validator-docs/actions/workflows/proposing-changes.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/davidsonts/validator-docs/badge.svg)](https://coveralls.io/github/davidsonts/validator-docs)
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
-[![Monthly Downloads](http://poser.pugx.org/geekcom/validator-docs/d/monthly)](https://packagist.org/packages/geekcom/validator-docs)
-[![Total Downloads](https://poser.pugx.org/geekcom/validator-docs/downloads)](https://packagist.org/packages/geekcom/validator-docs)
-[![License](https://poser.pugx.org/geekcom/validator-docs/license)](https://packagist.org/packages/geekcom/validator-docs)
+[![Monthly Downloads](http://poser.pugx.org/davidsonts/validator-docs/d/monthly)](https://packagist.org/packages/davidsonts/validator-docs)
+[![Total Downloads](https://poser.pugx.org/davidsonts/validator-docs/downloads)](https://packagist.org/packages/davidsonts/validator-docs)
+[![License](https://poser.pugx.org/davidsonts/validator-docs/license)](https://packagist.org/packages/davidsonts/validator-docs)
 
 > ### Por favor, considere **[fazer uma doação](https://nubank.com.br/pagar/518o5/zVBzxd00Sb)**, apoie nossas atividades
 
-> Para a versão legada compatível com Laravel 5 consulte o branch https://github.com/geekcom/validator-docs/tree/5.x.x
+> Para a versão legada compatível com Laravel 5 consulte o branch https://github.com/davidsonts/validator-docs/tree/5.x.x
 
 ## Recursos
 - Validar qualquer documento do Brasil;
@@ -24,7 +24,7 @@ No arquivo `composer.json`, adicione validator-docs como dependência do seu pro
 
 ```
 "require": {
-    "geekcom/validator-docs" : "^3.9"
+    "davidsonts/validator-docs" : "^3.9"
  },
 ```
 
@@ -37,7 +37,7 @@ composer install
 Ou simplesmente execute o comando:
 
 ```bash
-composer require geekcom/validator-docs
+composer require davidsonts/validator-docs
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -260,7 +260,7 @@ public function store(Request $request)
 
 Fique a vontade para contribuir de qualquer forma.
 
-Caso tenha alguma dúvida ou encontre algum bug, abra uma [issue](https://github.com/geekcom/validator-docs/issues) ou pesquise por issues antigas.
+Caso tenha alguma dúvida ou encontre algum bug, abra uma [issue](https://github.com/davidsonts/validator-docs/issues) ou pesquise por issues antigas.
 
-## [Contribuidores](https://github.com/geekcom/validator-docs/graphs/contributors)
+## [Contribuidores](https://github.com/davidsonts/validator-docs/graphs/contributors)
 Contribuições de qualquer tipo são bem-vindas!

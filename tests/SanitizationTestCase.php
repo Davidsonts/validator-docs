@@ -1,8 +1,8 @@
 <?php
 
-namespace geekcom\ValidatorDocs\Tests;
+namespace davidsonts\ValidatorDocs\Tests;
 
-use geekcom\ValidatorDocs\Rules\Sanitization;
+use davidsonts\ValidatorDocs\Rules\Sanitization;
 
 final class SanitizationTestCase extends ValidatorTestCase
 {
