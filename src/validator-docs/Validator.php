@@ -66,7 +66,7 @@ class Validator extends BaseValidator
         $cpf = new Cpf();
         $cnpj = new Cnpj();
         
-        if(strlen($value==10)) {
+        if(strlen($value)==10) {
             return true;
         }
 
