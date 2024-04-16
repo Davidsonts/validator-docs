@@ -43,7 +43,7 @@ class ValidatorProvider extends ServiceProvider
             'cpf' => 'CPF inválido',
             'renavam' => 'Renavam inválido',
             'cpf_cnpj' => 'CPF ou CNPJ inválido',
-            'cpf_cnpj_passport' => 'CPF / CNPJ ou passport inválido',
+            'cpf_cnpj_passport' => 'CPF ou CNPJ inválido',
             'nis' => 'PIS/PASEP/NIT/NIS inválido',
             'cns' => 'Cartão Nacional de Saúde inválido',
             'inscricao_estadual' => 'Inscrição Estadual ou UF inválidas',

@@ -61,16 +61,21 @@ class Validator extends BaseValidator
         return ($cpf->validateCpf($attribute, $value) || $cnpj->validateCnpj($attribute, $value));
     }
 
-    protected function validateCpfCnpjPassport($attribute, $value): bool
-    {
-        $cpf = new Cpf();
-        $cnpj = new Cnpj();
+    protected function validateCpfCnpjPassport($attribute, $value, $parameters, $validator): bool
+    {   
+        $document_type = $validator->data['addresses'][explode('.', $attribute)[1]]['document_type'];
         
-        if(strlen($value)==10) {
-            return true;
+        if($document_type == 1 && $value != null) { 
+            $cpf = new Cpf();
+            return ($cpf->validateCpf($attribute, $value));
         }
 
-        return ($cpf->validateCpf($attribute, $value) || $cnpj->validateCnpj($attribute, $value));
+        if($document_type == 2 && $value != null) {
+            $cnpj = new Cnpj();
+            return ($cnpj->validateCnpj($attribute, $value));
+        }
+
+        return true;
     }
 
     protected function validateCnh($attribute, $value): bool
