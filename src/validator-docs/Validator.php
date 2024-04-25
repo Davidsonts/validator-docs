@@ -62,7 +62,7 @@ class Validator extends BaseValidator
     }
 
     protected function validateCpfCnpjPassport($attribute, $value, $parameters, $validator): bool
-    {   // ['physical', 'legal', 'taxid']
+    {
         $document_type = isset($validator->data['type_of_person']) ? $validator->data['type_of_person'] : $validator->data['addresses'][explode('.', $attribute)[1]]['document_type'];
         
         if($document_type == 1 || $document_type == 'physical' && $value != null) { 
